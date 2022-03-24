@@ -1,0 +1,8 @@
+lib
+node_modules
+.DS_STORE
+data
+.vscode
+.idea
+out.*
+.git

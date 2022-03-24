@@ -2,7 +2,7 @@
 
 const {getAllTokensCreatedBy, getAccountBatch, getTokenMetadata} = require("../lib");
 const argv = require('minimist')(process.argv.slice(2));
-
+process.stdin.resume();
 (async () => {
   const updateAuthority = argv._[0];
 
