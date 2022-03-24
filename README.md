@@ -14,5 +14,5 @@ Run with the syntax below, replacing `WALLET_ID` with ID of the update/freeze au
 
 ```bash
 npm ci
-npx --package=./ get-tokens-created-by WALLET_ID
+node bin/get-tokens-created-by.js WALLET_ID
 ```

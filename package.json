@@ -15,12 +15,13 @@
   "license": "CC0-1.0",
   "dependencies": {
     "encoding-down": "^7.1.0",
+    "fs-extra": "^10.0.1",
     "leveldown": "^6.1.0",
     "levelup": "^5.1.1",
     "lodash": "^4.17.21",
     "minimist": "^1.2.6",
     "multi-rpc-browser": "^2.4.0",
-    "node-fetch": "^3.2.3"
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.180",
