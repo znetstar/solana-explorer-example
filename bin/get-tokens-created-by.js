@@ -22,7 +22,7 @@ process.stdin.resume();
       result.meta = Array.from(metas.values()).map((s) => JSON.parse(s));
 
       process.stdout.write(
-        JSON.stringify(result) + "\n"
+        JSON.stringify(result) + require('os').EOL
       );
     } catch (err) {
       console.error(err.stack);
